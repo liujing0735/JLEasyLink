@@ -8,13 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		22D7396D2135192D00FCC2EB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D7396C2135192D00FCC2EB /* AppDelegate.m */; };
-		22D739702135192D00FCC2EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D7396F2135192D00FCC2EB /* ViewController.m */; };
 		22D739732135192D00FCC2EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D739712135192D00FCC2EB /* Main.storyboard */; };
 		22D739752135192F00FCC2EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22D739742135192F00FCC2EB /* Assets.xcassets */; };
 		22D739782135192F00FCC2EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D739762135192F00FCC2EB /* LaunchScreen.storyboard */; };
 		22D7397B2135192F00FCC2EB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D7397A2135192F00FCC2EB /* main.m */; };
 		22D739852135192F00FCC2EB /* JLEasyLinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D739842135192F00FCC2EB /* JLEasyLinkTests.m */; };
 		22D739902135192F00FCC2EB /* JLEasyLinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D7398F2135192F00FCC2EB /* JLEasyLinkUITests.m */; };
+		22D739AD2135195700FCC2EB /* EasyLinkForAXZWifiLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D739A02135195700FCC2EB /* EasyLinkForAXZWifiLink.m */; };
+		22D739AE2135195700FCC2EB /* ELReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D739A22135195700FCC2EB /* ELReachability.m */; };
+		22D739AF2135195700FCC2EB /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 22D739A32135195700FCC2EB /* README.md */; };
+		22D739B02135195700FCC2EB /* EasyLink.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D739A62135195700FCC2EB /* EasyLink.m */; };
+		22D739B12135195700FCC2EB /* ELAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D739A92135195700FCC2EB /* ELAsyncUdpSocket.m */; };
+		22D739B22135195700FCC2EB /* ELAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D739AA2135195700FCC2EB /* ELAsyncSocket.m */; };
+		22D739B52135206B00FCC2EB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22D739B42135206B00FCC2EB /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,8 +44,6 @@
 		22D739682135192D00FCC2EB /* JLEasyLink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JLEasyLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D7396B2135192D00FCC2EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		22D7396C2135192D00FCC2EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		22D7396E2135192D00FCC2EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		22D7396F2135192D00FCC2EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		22D739722135192D00FCC2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22D739742135192F00FCC2EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22D739772135192F00FCC2EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +55,21 @@
 		22D7398B2135192F00FCC2EB /* JLEasyLinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JLEasyLinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22D7398F2135192F00FCC2EB /* JLEasyLinkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLEasyLinkUITests.m; sourceTree = "<group>"; };
 		22D739912135192F00FCC2EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22D7399E2135195700FCC2EB /* EasyLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyLink.h; sourceTree = "<group>"; };
+		22D7399F2135195700FCC2EB /* AXZWifiLinkProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXZWifiLinkProtocol.h; sourceTree = "<group>"; };
+		22D739A02135195700FCC2EB /* EasyLinkForAXZWifiLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyLinkForAXZWifiLink.m; sourceTree = "<group>"; };
+		22D739A22135195700FCC2EB /* ELReachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELReachability.m; sourceTree = "<group>"; };
+		22D739A32135195700FCC2EB /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		22D739A42135195700FCC2EB /* ELReachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELReachability.h; sourceTree = "<group>"; };
+		22D739A52135195700FCC2EB /* route.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = route.h; sourceTree = "<group>"; };
+		22D739A62135195700FCC2EB /* EasyLink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasyLink.m; sourceTree = "<group>"; };
+		22D739A72135195700FCC2EB /* EasyLinkForAXZWifiLink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasyLinkForAXZWifiLink.h; sourceTree = "<group>"; };
+		22D739A92135195700FCC2EB /* ELAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELAsyncUdpSocket.m; sourceTree = "<group>"; };
+		22D739AA2135195700FCC2EB /* ELAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ELAsyncSocket.m; sourceTree = "<group>"; };
+		22D739AB2135195700FCC2EB /* ELAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELAsyncUdpSocket.h; sourceTree = "<group>"; };
+		22D739AC2135195700FCC2EB /* ELAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ELAsyncSocket.h; sourceTree = "<group>"; };
+		22D739B32135206B00FCC2EB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		22D739B42135206B00FCC2EB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +120,11 @@
 		22D7396A2135192D00FCC2EB /* JLEasyLink */ = {
 			isa = PBXGroup;
 			children = (
+				22D7399D2135195700FCC2EB /* EasyLinkSDK */,
 				22D7396B2135192D00FCC2EB /* AppDelegate.h */,
 				22D7396C2135192D00FCC2EB /* AppDelegate.m */,
-				22D7396E2135192D00FCC2EB /* ViewController.h */,
-				22D7396F2135192D00FCC2EB /* ViewController.m */,
+				22D739B32135206B00FCC2EB /* ViewController.h */,
+				22D739B42135206B00FCC2EB /* ViewController.m */,
 				22D739712135192D00FCC2EB /* Main.storyboard */,
 				22D739742135192F00FCC2EB /* Assets.xcassets */,
 				22D739762135192F00FCC2EB /* LaunchScreen.storyboard */,
@@ -130,6 +150,42 @@
 				22D739912135192F00FCC2EB /* Info.plist */,
 			);
 			path = JLEasyLinkUITests;
+			sourceTree = "<group>";
+		};
+		22D7399D2135195700FCC2EB /* EasyLinkSDK */ = {
+			isa = PBXGroup;
+			children = (
+				22D739A52135195700FCC2EB /* route.h */,
+				22D7399E2135195700FCC2EB /* EasyLink.h */,
+				22D739A62135195700FCC2EB /* EasyLink.m */,
+				22D7399F2135195700FCC2EB /* AXZWifiLinkProtocol.h */,
+				22D739A72135195700FCC2EB /* EasyLinkForAXZWifiLink.h */,
+				22D739A02135195700FCC2EB /* EasyLinkForAXZWifiLink.m */,
+				22D739A12135195700FCC2EB /* ELReachability */,
+				22D739A82135195700FCC2EB /* ELCocoaAsyncSocket */,
+			);
+			path = EasyLinkSDK;
+			sourceTree = "<group>";
+		};
+		22D739A12135195700FCC2EB /* ELReachability */ = {
+			isa = PBXGroup;
+			children = (
+				22D739A22135195700FCC2EB /* ELReachability.m */,
+				22D739A32135195700FCC2EB /* README.md */,
+				22D739A42135195700FCC2EB /* ELReachability.h */,
+			);
+			path = ELReachability;
+			sourceTree = "<group>";
+		};
+		22D739A82135195700FCC2EB /* ELCocoaAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				22D739AB2135195700FCC2EB /* ELAsyncUdpSocket.h */,
+				22D739A92135195700FCC2EB /* ELAsyncUdpSocket.m */,
+				22D739AC2135195700FCC2EB /* ELAsyncSocket.h */,
+				22D739AA2135195700FCC2EB /* ELAsyncSocket.m */,
+			);
+			path = ELCocoaAsyncSocket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,6 +293,7 @@
 			files = (
 				22D739782135192F00FCC2EB /* LaunchScreen.storyboard in Resources */,
 				22D739752135192F00FCC2EB /* Assets.xcassets in Resources */,
+				22D739AF2135195700FCC2EB /* README.md in Resources */,
 				22D739732135192D00FCC2EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,8 +319,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22D739702135192D00FCC2EB /* ViewController.m in Sources */,
+				22D739B12135195700FCC2EB /* ELAsyncUdpSocket.m in Sources */,
+				22D739B22135195700FCC2EB /* ELAsyncSocket.m in Sources */,
+				22D739B52135206B00FCC2EB /* ViewController.m in Sources */,
 				22D7397B2135192F00FCC2EB /* main.m in Sources */,
+				22D739AD2135195700FCC2EB /* EasyLinkForAXZWifiLink.m in Sources */,
+				22D739B02135195700FCC2EB /* EasyLink.m in Sources */,
+				22D739AE2135195700FCC2EB /* ELReachability.m in Sources */,
 				22D7396D2135192D00FCC2EB /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +496,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B3R8UT3R5;
 				INFOPLIST_FILE = JLEasyLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -450,7 +514,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9B3R8UT3R5;
 				INFOPLIST_FILE = JLEasyLink/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
